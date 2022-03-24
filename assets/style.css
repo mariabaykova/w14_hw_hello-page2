@@ -30,3 +30,15 @@ div {
     justify-content: center;
     grid-auto-flow: column;
 }
+
+
+
+.change-background {
+    border: 2px solid rgb(52, 141, 52);
+}
+
+.change-background__block {
+    border: 1px black solid;
+    height: 50px;
+    margin: 10px 10px 10px 10px;
+}
