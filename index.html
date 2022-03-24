@@ -45,6 +45,29 @@
         <div class="change-background__block" onclick="changeBckg(2)">click to change background</div>
         <div class="change-background__block" onclick="changeBckg(3)">click to change background</div>
     </div>
+
+    <div class="simple-gallery">
+        <h2>My first gallery</h2>
+        <div class="simple-gallery__items">
+            <div class="simple-gallery__item">
+                <img src="./assets/pictures/IMG_5483.PNG" alt="">
+            </div>
+            <div class="simple-gallery__item">
+                <img src="./assets/pictures/IMG_5528.JPG" alt="">
+            </div>
+            <div class="simple-gallery__item">
+                <img src="./assets/pictures/IMG_5575.PNG" alt="">
+            </div>
+            <div class="simple-gallery__item">
+                <img src="./assets/pictures/IMG_5716.jpeg" alt="">
+            </div>
+            
+        </div>
+        <div class="simple-gallery__nav-buttons">
+            <input type="button" class="simple-gallery__nav-button" value="prev" onclick="showNextPicture(-1)">
+            <input type="button" class="simple-gallery__nav-button" value="next" onclick="showNextPicture(1)">
+        </div>
+    </div>
     <script src="./assets/script.js"></script>
 </body>
 </html> 

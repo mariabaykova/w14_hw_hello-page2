@@ -42,3 +42,28 @@ div {
     height: 50px;
     margin: 10px 10px 10px 10px;
 }
+
+.simple-gallery {
+    border: 4px solid pink;
+}
+
+.simple-gallery__items {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+}
+
+.simple-gallery__item {
+    /* display: none; */
+}
+
+.simple-gallery__item img {
+    height: 300px;
+}
+
+.simple-gallery__nav-buttons {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 10px;
+}
